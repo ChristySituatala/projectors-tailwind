@@ -1,0 +1,17 @@
+{
+"name": "project-documentatie-tailwind",
+"version": "1.0.0",
+"private": true,
+"scripts": {
+"dev": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch",
+"build": "tailwindcss -i ./src/input.css -o ./dist/styles.css --minify",
+"serve": "npx live-server --port=3000"
+},
+"devDependencies": {
+"autoprefixer": "^10.4.14",
+"postcss": "^8.4.24",
+"tailwindcss": "^3.4.7",
+"@tailwindcss/typography": "^0.5.8",
+"live-server": "^1.2.2"
+}
+}
